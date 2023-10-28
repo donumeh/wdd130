@@ -20,6 +20,11 @@ body {
     align-self: center;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 .home-title, .msg h2{
     font-family: "Croissant One", Arial, Helvetica, sans-serif;
 }
@@ -125,20 +130,46 @@ main section img {
 
 #background {
     height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
 
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
 .card-img {
     border: 10px solid #023047;
+    width: 100%;
+}
+
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
 }
 
 .msg {
     background-color: #5f8a9e;
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 
 .msg h2, .msg p {
