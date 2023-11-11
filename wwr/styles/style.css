@@ -227,7 +227,6 @@ footer .social img {
 }
 
 #rivers_main {
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 250px;
@@ -243,12 +242,7 @@ footer .social img {
     justify-content: center;
 }
 
-.rivers_block > div {
-    border: 1px solid red;
-}
-
 .rivers_block > p {
-    border: 1px solid red;
     overflow: auto;
     margin: auto;
     width: 80%;
@@ -256,7 +250,6 @@ footer .social img {
 }
 
 .rivers_block div img {
-    border: 1px solid red;
     width: 90%;
 
 }
@@ -303,7 +296,6 @@ footer .social img {
     }
 
     #rivers_main {
-        border: 1px solid red;
         display: grid;
         grid-template-columns: 1fr;
         margin-top: 250px;
