@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 1px solid red;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 27, 27);
+}
+
+div {
+    border: 1px solid red;
+    width: 50%;
+}
+
+.header {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    border-radius: 10px 10px 0px 0px;
+    width: 80%;
+}
+
+.flex-container {
+    border: 1px solid red;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.comment {
+    width: 50%;
+    margin-top: -40px;
+}
+
+.timestamp {
+    color: blue;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+.post_num {
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+
+.grid-container {
+    border: 1px solid red;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: rgb(34, 34, 87);
+}
+
+.grid-container > * {
+    border: 1px solid red;
+    color: white;
+}
+
