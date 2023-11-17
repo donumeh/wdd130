@@ -290,7 +290,7 @@ input:focus,
 textarea:focus {
     border-color: #000;
 }
-  
+
 textarea {
     vertical-align: top;
     height: 5em;
