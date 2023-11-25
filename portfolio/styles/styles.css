@@ -302,7 +302,7 @@ h2 .hero-style {
 /* Footer */
 
 footer img {
-    width: 10%;
+    width: 30%;
 }
 
 .logo_footer {
@@ -312,14 +312,29 @@ footer img {
 footer {
     background-color: var(--primary-color);
     display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
     flex-direction: row-reverse;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
 }
 
+#footer_links {
+    display: flex;
+    flex-direction: row;
+}
 
+#footer_links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 35px;
+    padding-bottom: 0;
+    height: 50px;
+    width: 90px;
+}
 
+#footer_links a:hover {
+    background-color: var(--accent1-color);
+}
 
 
 
@@ -448,6 +463,34 @@ footer {
         background-color: var(--primary-color);
     }
 
+    footer img {
+        width: 10%;
+    }
+    
+    footer {
+        background-color: var(--accent1-color);
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    #footer_links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #footer_links a {
+        color: var(--secondary-color);
+        text-decoration: none;
+        padding: 35px;
+        padding-bottom: 0;
+        height: 50px;
+        width: 90px;
+    }
+    
+    #footer_links a:hover {
+        background-color: var(--primary-color);
+    }
+
 }
 
 @media screen and (max-width: 1500px) {
@@ -461,26 +504,3 @@ footer {
         margin: 0 auto;
     }
 }
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*img {
-    width: 50%;
-    height: 20%;
-    margin: 10% auto;
-}
-*/
