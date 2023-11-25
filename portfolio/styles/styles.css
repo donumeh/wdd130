@@ -218,14 +218,14 @@ h2 .hero-style {
     justify-content: center;
 }
 
-.home-content .bullet-points li{
+ol li{
     font-size: 30px;
     font-weight: bold;
 }
 
-.home-content .bullet-points p {
-    width: 70%;
-    text-align: center;
+ul li {
+    font-size: medium;
+    font-weight: normal;
 }
 
 /* Fourth block */
@@ -415,10 +415,6 @@ footer {
 
     .home-content div img {
        display: none;
-    }
-
-    .bullet-points li:nth-child(odd) {
-        background-color: var(--primary-color);
     }
 
     .fourth-block {
