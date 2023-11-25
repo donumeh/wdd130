@@ -169,7 +169,6 @@ h2 .hero-style {
         opacity: 0;
         transform: translateY(-10px);
         transition: opacity 0.3s ease, transform 0.3s ease;
-        transition: background-color 0.3s ease;
     }
 
     .menu-list.active {
@@ -179,8 +178,20 @@ h2 .hero-style {
         transform: translateY(0);
     }
 
-    .menu-list.hover {
+    .menu-list a.hover {
         background-color: var(--primary-color);
+    }
+
+    .hero-msg h2 span {
+        font-size: 200%;
+    }
+
+    .hero-msg p {
+        font-size: 100%;
+    }
+
+    .hero-msg p a {
+        margin: 0 auto;
     }
 }
      
