@@ -301,6 +301,23 @@ h2 .hero-style {
 
 /* Footer */
 
+footer img {
+    width: 10%;
+}
+
+.logo_footer {
+    height: 100px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
 
 
 
