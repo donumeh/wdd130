@@ -340,6 +340,51 @@ footer {
     width: 10%;
 }
 
+/* Project Page*/
+
+.hero-msg_p h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 300%;
+    color: var(--primary-color);
+}
+
+.portfolio {
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio div img {
+    border: 10px solid var(--primary-color);
+    height: 300px;
+    width: 90%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.portfolio div img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.portfolio div {
+    width: 100%;
+}
+
+.pj_CTA {
+    background-color: var(--accent1-color);
+}
+
+.portfolio p:hover {
+    display: block;
+}
+
+
 
 
 
@@ -493,6 +538,14 @@ footer {
     #social_icons {
         width: 100%;
         margin: 0 auto;
+    }
+
+    .portfolio {
+        grid-template-columns: 1fr;
+    }
+
+    .pj_CTA {
+        background-color: var(--primary-color);
     }
 
 }
